@@ -1,0 +1,28 @@
+.item {
+  border: 1px solid black;
+  display: none;
+}
+@media (max-width: 300px) {
+  #id1 {
+    display: block;
+    box-shadow: 10px 5px 5px red;
+  }
+}
+@media (min-width: 301px) and (max-width: 600px) {
+  #id2 {
+    display: block;
+    box-shadow: 60px -16px teal;
+  }
+}
+@media (min-width: 601px) and (max-width: 900px) {
+  #id3 {
+    display: block;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+  }
+}
+@media (min-width: 901px) and (max-width: 1200px) {
+  #id4 {
+    display: block;
+    box-shadow: inset 5em 1em gold;
+  }
+}
